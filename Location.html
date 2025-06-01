@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        #div_estilo1{
+            background-color: rgb(187, 197, 50);
+            font-weight: bold;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecera">
+        <h1>Javascript</h1>
+    </div>
+    <div id="menu">
+        <a href="index.html" class="item_menu">Inicio</a>
+        <a href="Eventos.html" class="item_menu">Eventos</a>
+        <a href="Css.html" class="item_menu">Css</a>
+        <a href="Form.html" class="item_menu">Form</a>
+        <a href="Funciones.html" class="item_menu">Funciones</a>
+        <a href="Location.html" class="item_menu item_activo">Location</a>
+        <a href="Windows.html" class="item_menu">Windows</a>
+        <a href="Dom.html" class="item_menu">Dom</a>
+        <a href="Animaciones.html" class="item_menu ">Animaciones</a>
+        <a href="Juego.html" class="item_menu ">Juego</a>
+        <a href="pokeapi.html" class="item_menu">PokeApi</a>
+    </div>
+    <div id="demo"></div>
+
+    <script>
+        document.getElementById("demo").innerHTML = "location is" + location.href + "<br>";
+
+        document.getElementById("demo").innerHTML += "hostname is" + location.hostname + "<br>";
+
+        document.getElementById("demo").innerHTML += "path is" + location.pathname + "<br>";
+        
+    </script>
+    <div id="footer">
+        Ariel Arrobo <br>
+        5to "A" <br>
+        UTLVTE 2025
+    </div>
+</body>
+</html>
